@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update users</title>
+    <link rel="stylesheet" href={{url_for('static',filename='style.css')}}>
+</head>
+<body>
+    <form action="" method="post">
+    <label>name</label>
+    <input type="text" name="name" value="{{datas.name}}">
+    <label>age</label>
+    <input type="text" name="age" value="{{datas.age}}">
+    <label> city</label>
+    <input type="text" name="city" value="{{datas.city}}">
+    <input type="submit">
+    </form>
+</body>
+</html>
